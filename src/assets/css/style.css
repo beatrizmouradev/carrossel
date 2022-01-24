@@ -3,3 +3,31 @@ body {
     background-color: #F9FBFE;
     margin: 0;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 7.6rem
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#carrossel {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.curso {
+    width: 315px;
+    background-color: white;
+    border: 1px solid #F2F7FE;
+    box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
+    border-radius: 5px;
+    padding: 33px 21px 20px 21px;
+    margin-right: 25px;
+}
