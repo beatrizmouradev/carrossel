@@ -16,6 +16,19 @@ main {
     justify-content: space-between;
 }
 
+.navegacao h1 {
+    color: #093366;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.botao {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
 #carrossel {
     display: flex;
     transform: translateX(0);
