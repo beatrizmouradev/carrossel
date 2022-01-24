@@ -44,3 +44,32 @@ main {
     padding: 33px 21px 20px 21px;
     margin-right: 25px;
 }
+
+.curso__icone {
+    height: 60px;
+    object-fit: cover;
+
+}
+
+.curso__descricao{
+    color: #093366;
+    font-weight: 700;
+    line-height: 18px;
+    width: 270px;
+}
+
+.curso__tempo {
+    display: flex;
+    color: #BEC8D8;  
+}
+
+.curso__tempo img {
+    margin-right: 15px;
+}
+
+.curso__tempo p {
+    font-weight: 700;
+}
+
+
+
